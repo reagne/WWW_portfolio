@@ -6,7 +6,7 @@
 	<meta name="decription" content="Profesjonalne projektowanie i tworzenie stron WWW">
 	<meta name="keywords" content="www, tworzenie stron, projektowanie stron, tworzenie WWW, projektowanie www,strony internetowe, strona internetowa">
 	
-	<link href="css_stylesheet.css" type="text/css" rel="stylesheet">
+	<link href="css/css_stylesheet.css" type="text/css" rel="stylesheet">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -17,31 +17,31 @@
 </head>
 <body>
 <!-- Nawigacja -->
-	<div class="header">
+	<div id="header">
 		<div id="slogan">
-			<img src="images/Tekst.png" alt="It's not about ideas. It's about making ideas happen." />
+			<img src="images/header_slogan.png" alt="It's not about ideas. It's about making ideas happen." />
 		</div>
-		<div class="idea">
+		<div id="pattern">
 		</div>
-		<div class="menu">
-		<ul>
-			<li><a href="index.html"><img src="images/home-button.jpg" alt="Home"></a></li>
-			<li class="current"><a href="cv.html">O mnie</a></li>
-			<li><a href="projects.html">Portfolio</a></li>
-			<li><a href="kontakt.html">Kontakt</a></li>
-		</ul>
+		<div id="nav_menu">
+			<ul>
+				<li><a href="index.html"><img src="images/home_button.jpg" alt="Home"></a></li>
+				<li id="current"><a href="cv.html">O mnie</a></li>
+				<li><a href="projects.html">Portfolio</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+			</ul>
 		</div>
 	</div>
 <!-- Treść -->
 <div class="container">
-	<div class="cv_text">
+	<div id="cv_text">
 		
-		<img src="images/070.jpg" alt="Moje zdjęcie">
+		<img src="images/me.jpg" alt="Moje zdjęcie">
 		
 		<div id="cv_header">
 			<h1>Regina Anam</h1>
 			<p><span class="c_h_1">ur.</span> 1986</p>
-			<p><span class="c_h_1">e-mail:</span> <a href="mailto:regina.anam@gmail.com">Regina.Anam@gmail.com</a></p>
+			<p><span class="c_h_1">e-mail:</span> <a href="mailto:regina.anam@gmail.com" class="mail">Regina.Anam@gmail.com</a></p>
 			<p><span class="c_h_1">tel.:</span> +48 696 445 830</p>
 			<p>Poniżej dowiesz się więcej o moim doświadczeniu zawodowym.</p>
 		</div>
@@ -71,91 +71,89 @@
 			</ul>
 		</div>
 		
-		<div id="cv_content">
-			<h2>Doświadczenie</h2>
+		<h3>Doświadczenie</h3>
 			
-			<h3>WebDoctor – agencja marketingu internetowego (08.2011 – 04.2014)</h3>
-			<ul>
-				<li><h4>Specjalista ds. marketingu internetowego (07.2012 – 04.2014)</h4>
-				Poprzednie obowiązki specjalisty ds. linków sponsorowanych i dodatkowo:
-					<ul>
-						<li>Prowadzenie szkoleń wewnętrznych  i zewnętrznych w ramach WebDoctor Training Center;</li>
-						<li>Tworzenie i wprowadzanie nowych usług do oferty WebDoctor poprzez:
-							<ul>
-								<li>udział w opracowywaniu koncepcji nowych usług;</li>
-								<li>optymalizację prac firmy poprzez tworzenie: Ksiąg produktów usług, Dokumentów w Excelu usprawniających przepływ informacji między działami (usprawnienie obsługi Klienta), tworzenie procedur wewnątrzdziałowych;</li>
-								<li>tworzenie graficznych szkiców ofert marketingowych i szkiców stron internetowych;</li>
-								<li>współpraca z firmami zewnętrznymi w ramach tworzenia filmów wideo i stron WWW.</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-				<li><h4>Specjalista ds. linków sponsorowanych (08.2011 – 07.2012)</h4>
-					<ul>
-						<li>Kreacja i prowadzenie kampanii AdWords oraz obsługa Klientów w zakresie Google AdWords i Analytics;</li>
-						<li>Prowadzenie kampanii Facebook Ads na potrzeby firmy WebDoctor;</li>
-						<li>Sporządzanie niestandardowych analiz za pomocą Google Analytics w zakresie SEO i kampanii reklamowych;</li>
-						<li>Sporządzanie audytów webusability metodą heurystyczną, za pomocą listy kontrolnej utworzonej na podstawie wytycznych Jacobsa Nielsena i statystyk strony zebranych za pomocą Google Analytics;</li>
-						<li>Tworzenie pełnych strategii e-marketingowych dla Klientów firmy (zawierających analizę konkurencji, grupy odbiorczej, a także proponowane rozwiązania i harmonogram działań);</li>
-						<li>Pisanie branżowych artykułów na portal SeoPortal.pl.</li>
-					</ul>
-				</li>
-			</ul>
+		<h4>WebDoctor – agencja marketingu internetowego (08.2011 – 04.2014)</h4>
+		<ul>
+			<li><h5>Specjalista ds. marketingu internetowego (07.2012 – 04.2014)</h5>
+			Poprzednie obowiązki specjalisty ds. linków sponsorowanych i dodatkowo:
+				<ul>
+					<li>Prowadzenie szkoleń wewnętrznych  i zewnętrznych w ramach WebDoctor Training Center;</li>
+					<li>Tworzenie i wprowadzanie nowych usług do oferty WebDoctor poprzez:
+						<ul>
+							<li>udział w opracowywaniu koncepcji nowych usług;</li>
+							<li>optymalizację prac firmy poprzez tworzenie: Ksiąg produktów usług, Dokumentów w Excelu usprawniających przepływ informacji między działami (usprawnienie obsługi Klienta), tworzenie procedur wewnątrzdziałowych;</li>
+							<li>tworzenie graficznych szkiców ofert marketingowych i szkiców stron internetowych;</li>
+							<li>współpraca z firmami zewnętrznymi w ramach tworzenia filmów wideo i stron WWW.</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><h5>Specjalista ds. linków sponsorowanych (08.2011 – 07.2012)</h5>
+				<ul>
+					<li>Kreacja i prowadzenie kampanii AdWords oraz obsługa Klientów w zakresie Google AdWords i Analytics;</li>
+					<li>Prowadzenie kampanii Facebook Ads na potrzeby firmy WebDoctor;</li>
+					<li>Sporządzanie niestandardowych analiz za pomocą Google Analytics w zakresie SEO i kampanii reklamowych;</li>
+					<li>Sporządzanie audytów webusability metodą heurystyczną, za pomocą listy kontrolnej utworzonej na podstawie wytycznych Jacobsa Nielsena i statystyk strony zebranych za pomocą Google Analytics;</li>
+					<li>Tworzenie pełnych strategii e-marketingowych dla Klientów firmy (zawierających analizę konkurencji, grupy odbiorczej, a także proponowane rozwiązania i harmonogram działań);</li>
+					<li>Pisanie branżowych artykułów na portal SeoPortal.pl.</li>
+				</ul>
+			</li>
+		</ul>
 			
-			<h3>Stażysta, Polpharma S.A. (12.2010 – 02.2011)</h3>
-			<ul>
-				<li>Księgowość Zobowiązań i Controlling.</li>
-			</ul>
+		<h4>Stażysta, Polpharma S.A. (12.2010 – 02.2011)</h4>
+		<ul>
+			<li>Księgowość Zobowiązań i Controlling.</li>
+		</ul>
 			
-			<h3>Redaktor grupy Finanse, INFORNEXT.PL Sp. z o.o. (07.2010 – 10.2010)</h3>
-			<ul>
-				<li>Samodzielna opieka merytoryczna nad serwisami wchodzącymi w skład grupy Finanse w wortalu biznes.wieszjak.pl i pozyskiwanie nowych partnerów.</li>
-			</ul>
+		<h4>Redaktor grupy Finanse, INFORNEXT.PL Sp. z o.o. (07.2010 – 10.2010)</h4>
+		<ul>
+			<li>Samodzielna opieka merytoryczna nad serwisami wchodzącymi w skład grupy Finanse w wortalu biznes.wieszjak.pl i pozyskiwanie nowych partnerów</li>
+		</ul>
 			
-			<h3>Redaktor Naczelny, BycSeniorem.pl – portal internetowy (01.2010 – 04.2010)</h3>
-			<ul>
-				<li>Współpraca merytoryczna oraz techniczna (testowanie CMS) przy tworzeniu i rozwoju portalu;</li>
-				<li>Dobór tematyczny oraz aktualizowanie i redagowanie treści;</li>
-				<li>Szkolenie osoby z zakresu przygotowywania materiałów na stronę.</li>
-			</ul>
+		<h4>Redaktor Naczelny, BycSeniorem.pl – portal internetowy (01.2010 – 04.2010)</h4>
+		<ul>
+			<li>Współpraca merytoryczna oraz techniczna (testowanie CMS) przy tworzeniu i rozwoju portalu;</li>
+			<li>Dobór tematyczny oraz aktualizowanie i redagowanie treści;</li>
+			<li>Szkolenie osoby z zakresu przygotowywania materiałów na stronę.</li>
+		</ul>
 			
-			<h3>Dziennikarz, eGospodarka.pl – portal internetowy (07.2007 – 06.2010)</h3>
-			<ul>
-				<li>Redagowanie i przygotowywanie treści (dobieranie słów kluczowych, dobrze pozycjonowanych tytułów itp.) i wprowadzanie ich do CMS’a;</li>
-				<li>Samodzielny dobór tekstów.</li>
-			</ul>
+		<h4>Dziennikarz, eGospodarka.pl – portal internetowy (07.2007 – 06.2010)</h4>
+		<ul>
+			<li>Redagowanie i przygotowywanie treści (dobieranie słów kluczowych, dobrze pozycjonowanych tytułów itp.) i wprowadzanie ich do CMS’a;</li>
+			<li>Samodzielny dobór tekstów.</li>
+		</ul>
 		
-			<h2>Silne Strony</h2>
-			<ul>
-				<li>Wg Gallup Strenghts Finder: Adaptability, Relator, Deliberative, Responsibility, Ideation</li>
-				<li>Wytrwałość i sumienność, kreatywność, dokładność</li>
-			</ul>
+		<h3>Silne Strony</h3>
+		<ul>
+			<li>Wg Gallup Strenghts Finder: Adaptability, Relator, Deliberative, Responsibility, Ideation</li>
+			<li>Wytrwałość i sumienność, kreatywność, dokładność</li>
+		</ul>
 		
-			<h2>Wykształcenie</h2>
-			<ul>
-				<li>Magister Ekonomii Uniwersytet Gdański, Wydział Ekonomiczny <br />Specjalizacja: Biznes Elektroniczny (2004-2009)</li>
-			</ul>
+		<h3>Wykształcenie</h3>
+		<ul>
+			<li>Magister Ekonomii Uniwersytet Gdański, Wydział Ekonomiczny <br />Specjalizacja: Biznes Elektroniczny (2004-2009)</li>
+		</ul>
 		
-			<h2>Umiejętności</h2>
-			<ul>
-				<li>Język angielski (czytanie/słuchanie – b.dobry; pismo/mowa - dobry)</li>
-				<li>Znajomość pakietu Microsoft Office (Excel, Word, Power Point, Outlook)</li>
-			</ul>
+		<h3>Umiejętności</h3>
+		<ul>
+			<li>Język angielski (czytanie/słuchanie – b.dobry; pismo/mowa - dobry)</li>
+			<li>Znajomość pakietu Microsoft Office (Excel, Word, Power Point, Outlook)</li>
+		</ul>
 		
-			<h2>Główne Kursy / Certyfikaty</h2>
-			<ul>
-				<li>Certyfikaty Google AdWords Professionals<br />(podstawowy, zaawansowany z sieci wyszukiwania, zaawansowany z sieci reklamowej)</li>
-				<li>Certyfikat Social Media Marketing, MaxRoy.com (11.2011)</li>
-				<li>Kurs „Copywriting w praktyce – warsztaty” (03.2010)</li>
-				<li>Certyfikat Google Analytics Individual Qualification (na moment obecny wygasły)</li>
-			</ul>
+		<h3>Główne Kursy / Certyfikaty</h3>
+		<ul>
+			<li>Certyfikaty Google AdWords Professionals<br />(podstawowy, zaawansowany z sieci wyszukiwania, zaawansowany z sieci reklamowej)</li>
+			<li>Certyfikat Social Media Marketing, MaxRoy.com (11.2011)</li>
+			<li>Kurs „Copywriting w praktyce – warsztaty” (03.2010)</li>
+			<li>Certyfikat Google Analytics Individual Qualification (na moment obecny wygasły)</li>
+		</ul>
 		
-			<h2>Zainteresowania</h2>
-			<p>Gra na pianinie, Rysunek ołówkiem, Literatura fantasy, Manga oraz anime.</p>
-		</div>
+		<h3>Zainteresowania</h3>
+		<p>Gra na pianinie, Rysunek ołówkiem, Literatura fantasy, Manga oraz anime.</p>
 	</div>
 <!-- Stopka -->
-	<div class="footer">
+	<div id="footer">
 		<p>Wszelkie prawa zastrzeżone. | Realizacja: Regina Anam</p>
 	</div>
 </div>

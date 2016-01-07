@@ -1,0 +1,297 @@
+/* --------------------- OGÓLNE ---------------------------- */
+
+body {
+	font-family: Verdana, sans-serif;           /* kolor czcionki podstawowy rgb(51,51,51) */
+}
+
+
+/* > Nagłówki */
+	
+.container h1 {
+	color: rgb(52,153,207);						/* niebieski */
+	text-shadow: 1px 1px 3px #777777;
+}
+
+.container h2 {
+	color: rgb(250,183,40);						/* żółty */
+	text-shadow: 1px 1px 3px #777777;
+}
+
+.container h3 {
+	color: rgb(123,184,47); 					/* zielony */
+	text-shadow: 1px 1px 3px #777777;	
+}
+
+.container h4 {
+	color: rgb(74,52,116);						/* fioletowy */	
+}
+
+.container h5 {
+	font-size: 16px;
+	font-weight: bold;
+	color: rgb(51,51,51);						/* kolor podstawowy */	
+}
+
+
+/* > Obrazki */
+
+.container img {
+	-moz-box-shadow: 5px 5px 5px #777777;
+	-webkit-box-shadow: 5px 5px 5px #777777;
+	box-shadow: 5px 5px 5px #777777;
+}
+
+
+/* > Linki */
+
+a:hover {
+	text-decoration: none !important;  /* Nie wiem co je nadpisuje */
+	font-weight: bold;
+}
+
+.mail:hover {
+	font-weight: normal;
+	text-decoration: underline !important;
+}
+
+
+/* -------------------- NAGŁÓWEK Z NAWIGACJĄ -------------------------------- */
+
+
+/* > Nagłówek */
+
+#header {
+	margin: 0px 5px 15px 5px;
+	-moz-box-shadow: 5px 5px 5px #777777;
+	-webkit-box-shadow: 5px 5px 5px #777777;
+	box-shadow: 5px 5px 5px #777777;
+	background-color: rgb(240,240,240);
+	min-width: 670px;
+}
+
+#slogan {
+	text-align: center;
+}
+
+#pattern {
+	margin-top: 10px;
+	height: 90px;
+	background-image: url("C:/WWW_RAnam/images/header_pattern.jpg");
+	background-repeat: repeat-x;
+}
+
+
+/* > Nawigacja */
+
+#nav_menu {
+	max-width: 1280px;
+}
+
+#nav_menu li {
+	display: inline;
+}
+
+#nav_menu a {
+	color: #212121;
+	font-size: 18px;	
+	text-shadow: 1px 1px 3px #777777;
+	padding: 8px 20px 13px 20px;
+}
+
+#nav_menu a:hover {
+	color: #212121;
+}
+
+	/* -> Wybrany przycisk nawigacji */
+
+#current a {
+	background-color: rgb(85,85,85);
+	color: #e0e0e0;
+	font-size: 20px;	
+	text-shadow: 1px 1px 3px #2e2e2e;
+}
+
+#current a:hover {
+	color: #e0e0e0;
+	font-weight: normal;
+}
+
+
+/* ------------------------- TREŚCI ---------------------------- */
+
+
+/* > PODSTRONA Index.html */
+
+#index_text img {
+	float: left;
+	margin: 20px;
+}
+
+#index_text p {
+	padding-top: 40px;
+	text-align: justify;
+}
+
+	/* -> Przyciski z nawigacją */
+
+.index_buttons{
+	text-align: center;
+	float: left;
+	color: white;
+	text-shadow: 1px 1px 3px #777777;
+	margin: 10px;
+	padding-top: 65px;
+	height: 195px;
+	width: 350px;
+}
+
+.index_buttons a {
+	color: white;
+	font-size: 40px;
+}
+
+.index_buttons a:hover {
+	color: white;
+}
+
+#index_about {
+	clear: left;
+	background-color: rgb(52,153,207); /* niebieski */
+}
+
+#index_portfolio {
+	background-color: rgb(250,183,40); /* zółty */
+}
+
+#index_kontakt {
+	background-color: rgb(123,184,47); /*zielony*/
+}
+
+
+/* > PODSTRONA CV.html */
+
+#cv_text img {
+	float: left;
+	margin: 10px 20px 20px 0px;
+}
+
+#cv_text li {
+	margin-top: 5px;
+}
+
+	/* -> Tekst obok zdjęcia */
+
+#cv_header {
+	float: left;
+}
+
+#cv_header p {
+	font-size: 20px;
+}
+
+#cv_header a {
+	color: rgb(51,51,51);
+}
+
+.c_h_1 {
+	color: rgb(52,153,207);				/* kolor niebieski czcionki w span */
+										/* WYKORZYSTANY TAKŻE NA PODSTRONIE KONTAKT */
+}
+
+	/* -> Ramki */
+
+.cv_po {
+	clear: both;
+	padding: 0px 20px 20px 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 5px solid rgb(250,183,40);
+	-moz-box-shadow: 5px 5px 5px #777777;
+	-webkit-box-shadow: 5px 5px 5px #777777;
+	box-shadow: 5px 5px 5px #777777;
+}
+
+
+/* > PODSTRONA Projects.html */
+
+	/* -> Menu dostępnych projektów */
+
+#pro_menu a {
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	color: rgb(123,184,47);
+	height: 180px;
+	width: 200px;
+	padding-top: 45px;
+	margin: 10px 10px 30px 10px;
+	background-image: url("C:/WWW_RAnam/images/projekt-background.jpg");
+	background-repeat: no-repeat;
+}
+
+#pro_menu a:hover {
+	color: rgb(123,184,47);
+}
+
+	/* -> Tekst i zdjęcie wybranego projektu */
+
+#pro_text h1 {
+	clear:both;
+	margin-top: 30px;
+}
+
+#pro_text img {
+	float: right;
+	margin: 10px;
+}
+
+#pro_text a {					/* --> Link "Wróć na górę" */	
+	color: rgb(250,183,40);
+	font-style: italic;
+}
+
+
+/* > PODSTRONA kontakt.html */
+
+#kon_text {
+	text-align: center;
+}
+
+#kon_text  h1 {
+	padding: 20px 0px 30px 0px;
+}
+
+#kon_text p {
+	font-size: 20px;
+	line-height: 1.4em;
+}
+
+#kon_text a {
+	color: rgb(51,51,51);
+}
+
+#kon_text a:hover {
+	color: rgb(51,51,51);
+}
+
+#kon_text .kont_p {
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+
+
+/* ------------------------ STOPKA ------------------------- */
+
+#footer {
+	border-radius: 10px;
+	background-color: #2a2a2a;
+	margin-top: 20px;
+	clear: both;
+}
+
+#footer p {
+	padding: 10px;
+	text-align: right;
+	font-size: 12px;
+	color: #d1d1d1;
+}

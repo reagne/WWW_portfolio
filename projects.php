@@ -1,37 +1,6 @@
-<!DOCTYPE html>
-<html lang="pl-PL">
-<head>
-	<title="Realizacje | Tworzenie stron WWW | Regina Anam">
-	<meta charset="UTF-8">
-	<meta name="decription" content="Profesjonalne projektowanie i tworzenie stron WWW">
-	<meta name="keywords" content="www, tworzenie stron, projektowanie stron, tworzenie WWW, projektowanie www,strony internetowe, strona internetowa">
-	
-	<link href="css/css_stylesheet.css" type="text/css" rel="stylesheet">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</head>
-<body>
-<!-- Nawigacja -->
-	<div id="header">
-		<div id="slogan">
-			<img src="images/header_slogan.png" alt="It's not about ideas. It's about making ideas happen." />
-		</div>
-		<div id="pattern">
-		</div>
-		<div id="nav_menu">
-			<ul>
-				<li><a href="index.html"><img src="images/home_button.jpg" alt="Home"></a></li>
-				<li><a href="cv.html">O mnie</a></li>
-				<li id="current"><a href="projects.html">Portfolio</a></li>
-				<li><a href="kontakt.html">Kontakt</a></li>
-			</ul>
-		</div>
-	</div>
+<?php
+require_once ('src/Header.php');
+?>
 <!-- Treść -->
 <div class="container">
 	<div id="pro_menu">
@@ -50,10 +19,6 @@
 		<img src="images/projekt_graf.jpg"><p>Lorem ipsum dolor sit amet, an vim congue invenire consetetur. Vim in reque tincidunt complectitur, sanctus minimum nominati ea nec. An has blandit invenire ullamcorper, duo odio integre fastidii ut, ex tantas graeci accusata eum. Feugait philosophia mea in, minim fastidii incorrupte no eam. Te alia labore concludaturque nam.</p>
 		<p><a href="#slogan">Wróć na górę.</a></p>
 	</div>
-<!-- Stopka -->
-	<div id="footer">
-		<p>Wszelkie prawa zastrzeżone. | Realizacja: Regina Anam</p>
-	</div>
-</div>
-</body>
-</html>
+<?php
+require_once ('src/Footer.php');
+?>

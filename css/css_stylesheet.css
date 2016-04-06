@@ -4,7 +4,6 @@ body {
 	font-family: Verdana, sans-serif;           /* kolor czcionki podstawowy rgb(51,51,51) */
 }
 
-
 /* > Nagłówki */
 	
 .container h1 {
@@ -32,6 +31,11 @@ body {
 	color: rgb(51,51,51);						/* kolor podstawowy */	
 }
 
+/* > Formularz */
+.container legend {
+	font-size: 30px;
+	color: rgb(123,184,47); 					/* zielony */
+}
 
 /* > Obrazki */
 
@@ -40,7 +44,6 @@ body {
 	-webkit-box-shadow: 5px 5px 5px #777777;
 	box-shadow: 5px 5px 5px #777777;
 }
-
 
 /* > Linki */
 
@@ -53,7 +56,6 @@ a:hover {
 	font-weight: normal;
 	text-decoration: underline !important;
 }
-
 
 /* -------------------- NAGŁÓWEK Z NAWIGACJĄ -------------------------------- */
 
@@ -76,10 +78,9 @@ a:hover {
 #pattern {
 	margin-top: 10px;
 	height: 90px;
-	background-image: url("C:/WWW_RAnam/images/header_pattern.jpg");
+	background-image: url("../images/header_pattern.jpg");
 	background-repeat: repeat-x;
 }
-
 
 /* > Nawigacja */
 
@@ -115,7 +116,6 @@ a:hover {
 	color: #e0e0e0;
 	font-weight: normal;
 }
-
 
 /* ------------------------- TREŚCI ---------------------------- */
 
@@ -167,7 +167,6 @@ a:hover {
 	background-color: rgb(123,184,47); /*zielony*/
 }
 
-
 /* > PODSTRONA CV.html */
 
 #cv_text img {
@@ -211,7 +210,6 @@ a:hover {
 	box-shadow: 5px 5px 5px #777777;
 }
 
-
 /* > PODSTRONA Projects.html */
 
 	/* -> Menu dostępnych projektów */
@@ -225,7 +223,7 @@ a:hover {
 	width: 200px;
 	padding-top: 45px;
 	margin: 10px 10px 30px 10px;
-	background-image: url("C:/WWW_RAnam/images/projekt-background.jpg");
+	background-image: url("../images/projekt-background.jpg");
 	background-repeat: no-repeat;
 }
 
@@ -250,8 +248,7 @@ a:hover {
 	font-style: italic;
 }
 
-
-/* > PODSTRONA kontakt.html */
+/* > PODSTRONA kontakt.php */
 
 #kon_text {
 	text-align: center;
@@ -279,6 +276,48 @@ a:hover {
 	padding-bottom: 20px;
 }
 
+    /* -> Formularz kontaktowy */
+
+.form-style-1 {
+    margin: 0px auto;
+    max-width: 400px;
+    padding: 0px 12px 10px 20px;
+    font-size: 13px;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display: block;
+    font-weight: bold;
+    text-align: left;
+}
+.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 200px;
+}
+.form-style-1 input[type=submit] {
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-style-1 input[type=submit]:hover {
+    background: #4691A4;
+}
+.form-style-1 .required{
+    color:red;
+}
 
 /* ------------------------ STOPKA ------------------------- */
 

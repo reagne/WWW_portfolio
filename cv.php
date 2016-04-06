@@ -1,37 +1,6 @@
-<!DOCTYPE html>
-<html lang="pl-PL">
-<head>
-	<title="O mnie | Tworzenie stron WWW | Regina Anam">
-	<meta charset="UTF-8">
-	<meta name="decription" content="Profesjonalne projektowanie i tworzenie stron WWW">
-	<meta name="keywords" content="www, tworzenie stron, projektowanie stron, tworzenie WWW, projektowanie www,strony internetowe, strona internetowa">
-	
-	<link href="css/css_stylesheet.css" type="text/css" rel="stylesheet">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</head>
-<body>
-<!-- Nawigacja -->
-	<div id="header">
-		<div id="slogan">
-			<img src="images/header_slogan.png" alt="It's not about ideas. It's about making ideas happen." />
-		</div>
-		<div id="pattern">
-		</div>
-		<div id="nav_menu">
-			<ul>
-				<li><a href="index.html"><img src="images/home_button.jpg" alt="Home"></a></li>
-				<li id="current"><a href="cv.html">O mnie</a></li>
-				<li><a href="projects.html">Portfolio</a></li>
-				<li><a href="kontakt.html">Kontakt</a></li>
-			</ul>
-		</div>
-	</div>
+<?php
+require_once ('src/Header.php');
+?>
 <!-- Treść -->
 <div class="container">
 	<div id="cv_text">
@@ -42,7 +11,7 @@
 			<h1>Regina Anam</h1>
 			<p><span class="c_h_1">ur.</span> 1986</p>
 			<p><span class="c_h_1">e-mail:</span> <a href="mailto:regina.anam@gmail.com" class="mail">Regina.Anam@gmail.com</a></p>
-			<p><span class="c_h_1">tel.:</span> +48 696 445 830</p>
+			<p><span class="c_h_1">tel.:</span> +48 696 XXX XXX</p>
 			<p>Poniżej dowiesz się więcej o moim doświadczeniu zawodowym.</p>
 		</div>
 		
@@ -152,10 +121,6 @@
 		<h3>Zainteresowania</h3>
 		<p>Gra na pianinie, Rysunek ołówkiem, Literatura fantasy, Manga oraz anime.</p>
 	</div>
-<!-- Stopka -->
-	<div id="footer">
-		<p>Wszelkie prawa zastrzeżone. | Realizacja: Regina Anam</p>
-	</div>
-</div>
-</body>
-</html>
+<?php
+require_once ('src/Footer.php');
+?>
